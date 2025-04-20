@@ -23,7 +23,6 @@ public class CalculatorImpl extends UnicastRemoteObject implements Calculator {
 			System.out.println("Calculator Server is ready.");
 		} catch (Exception e) {
 			System.out.println("Calculator Server failed: " + e);
-			e.printStackTrace(); // 👈 Helps debug the full stack trace
 		}
 	}
 	
